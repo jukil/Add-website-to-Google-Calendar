@@ -1,0 +1,10 @@
+{
+   "extDesc": {
+      "description": "Extension description",
+      "message": "Extract the website title, URL or any selection of text and create a Google Calendar\u2122 event."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Add website to Google Calendar\u2122"
+   }
+}

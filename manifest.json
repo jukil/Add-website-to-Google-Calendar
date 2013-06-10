@@ -1,0 +1,22 @@
+{
+"update_url":"http://clients2.google.com/service/update2/crx",
+   "name": "__MSG_extName__",
+   "description": "__MSG_extDesc__",
+   "version": "1.0",
+   "background": { "page": "background.html" },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/mailto.js" ],
+      "matches": [ "\u003Call_urls\u003E" ]
+   } ],
+   "default_locale": "en",
+   "icons": {
+      "128": "images/calendar-extension-128.png",
+      "16": "images/calendar-extension-16.png",
+      "32": "images/calendar-extension-32.png",
+      "48": "images/calendar-extension-48.png",
+      "64": "images/calendar-extension-64.png"
+   },
+   "permissions": [ "contextMenus", "http://*/*", "https://*/*" ],
+   "manifest_version": 2
+}
