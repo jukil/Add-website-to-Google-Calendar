@@ -90,7 +90,7 @@ function menuClicked(type, info, tab) {
     break;
   case 'link':
     emailStr = info.linkUrl;
-    emailSubj = info.linkUrl.replace(/.*?:\/\//g, "").replace("www.", "");
+    emailSubj = info.linkUrl.split("/").pop().split(";")[0];
     break;
   default:
     emailStr = info.srcUrl;
