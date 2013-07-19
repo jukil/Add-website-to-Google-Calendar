@@ -8,6 +8,8 @@ Download: https://chrome.google.com/webstore/detail/add-website-to-google-cal/ki
 Changelog
 =========
 
+ - 1.2 Improved regEx for link to retrieve the slug as title
+ 
  - 1.1 Fixed "A nice link subject" when adding a link to calendar
 
  - 1.0 Initial release
