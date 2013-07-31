@@ -20,6 +20,6 @@ Changelog
 
  - Fixed "A nice link subject" when adding a link to calendar
 
- 1.0 
+1.0 
  
  - Initial release
